@@ -1,0 +1,23 @@
+{
+  "name": "healthcare-portal-fresh",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Local Healthcare Portal",
+  "dependencies": {
+    "better-sqlite3": "^12.5.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "express-session": "^1.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}

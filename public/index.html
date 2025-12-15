@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Healthcare Portal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>🏥 Healthcare Portal</h1>
+  <a href="/logout">Logout</a>
+</header>
+
+<section class="card">
+  <h2>Add Patient</h2>
+  <input id="p_name" placeholder="Name">
+  <input id="p_age" type="number" placeholder="Age">
+  <input id="p_disease" placeholder="Disease">
+  <button onclick="addPatient()">Add Patient</button>
+</section>
+
+<section class="card">
+  <button onclick="togglePatients()">👥 Show / Hide Patients</button>
+  <ul id="patients" style="display:none;"></ul>
+</section>
+
+<section class="card">
+  <h2>Add Appointment</h2>
+  <select id="patientSelect">
+    <option value="">Select Patient</option>
+  </select>
+
+  <select id="doctor">
+    <option value="">Select Doctor</option>
+    <option>Ram</option>
+    <option>Sham</option>
+    <option>Naina</option>
+    <option>Shivani</option>
+  </select>
+
+  <input id="date" type="datetime-local">
+  <input id="reason" placeholder="Reason">
+  <button onclick="addAppointment()">Create Appointment</button>
+</section>
+
+<section class="card">
+  <button onclick="toggleAppointments()">📅 Show / Hide Appointments</button>
+  <ul id="appointments" style="display:none;"></ul>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
