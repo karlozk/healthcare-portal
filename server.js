@@ -152,5 +152,5 @@ app.delete("/appointments/:id", auth, (req, res) => {
 /* ---------- START ---------- */
 
 app.listen(3000, () => {
-  console.log("✅ Healthcare Portal running at http://localhost:3000");
+  console.log("✅ Healthcare Portal running at http://0.0.0.0:3000");
 });
