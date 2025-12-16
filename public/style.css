@@ -1,6 +1,6 @@
 body {
   font-family: Arial;
-  background: #240174;
+  background: #c46326;
   padding: 20px;
 }
 
@@ -24,6 +24,7 @@ input, select {
 
 button {
   padding: 8px 12px;
+
   margin-top: 8px;
   cursor: pointer;
 }
